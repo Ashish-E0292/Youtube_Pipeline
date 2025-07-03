@@ -7,8 +7,8 @@ from googleapiclient.errors import HttpError
 
 # Configuration
 API_KEY = "AIzaSyBEDGArnsn19HcOZ0HoUHDHgy45iTOFyck"  # Your API key
-INPUT_FILE = "Rechecked Channels List.xlsx"  # Your input file with @handles
-OUTPUT_FILE = "youtube_raw_new_channels4.csv"   # Output as CSV
+INPUT_FILE = "Rechecked Channels List_v1.xlsx"  # Your input file with @handles
+OUTPUT_FILE = "youtube_raw_new_channels_07032025.csv"   # Output as CSV
 CHECKPOINT_FILE = "youtube_checkpoint_new.json"
 BATCH_SIZE = 5  # Process this many channels before saving checkpoint
 
